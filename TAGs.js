@@ -10,10 +10,7 @@ $(function(){
 
 	// Iniciando variáveis do plugin
 	var v={},_ET,tmp,exec=true,fn,debug;
-	
-	// NÃO ALTERAR - Ferramenta de Debug
-	debug=function(a,b){"object"==typeof console&&-1<document.location.href.toLowerCase().indexOf("debugtag")&&("string"===typeof a?console.log("[debug]["+extTitle+" - "+(b||"Erro")+"] "+a):console.log(a))};
-	
+		
 	// Definindo valor padrão para o tipo de página
 	_ET=$("body").attr("class").split(" ").shift();
 	
@@ -97,6 +94,10 @@ $(function(){
 	/*
 	* ### NÃO ALTERAR NADA A PARTIR DAQUI ###
 	*/
+	
+	// Ferramenta de Debug
+	debug=function(a,b){"object"==typeof console&&-1<document.location.href.toLowerCase().indexOf("debugtag")&&("string"===typeof a?console.log("[debug]["+extTitle+" - "+(b||"Erro")+"] "+a):console.log(a))};
+
 	// Esta função é responsável pela requisição assíncrona do código do Google
 	fn=function()
 	{
