@@ -67,8 +67,8 @@ $(function(){
 	*/
 	// Variáveis de configuração. (essas informações são obtidas ao criar a tag no Google)
 	// Não altere os nomes dessas variáveis
-	window.google_conversion_id = 1000221561; // Altere para o id da sua tag
-	window.google_conversion_label = "2o3SCOf90AMQ-db43AM"; // Altere para o "label" da sua tag
+	window.google_conversion_id = 123456789; // Altere para o id da sua tag
+	window.google_conversion_label = "xxxxxxxx-XXXXX"; // Altere para o "label" da sua tag
 	window.google_remarketing_only = true;
 	// Variáveis customizadas. Configure as chaves de acordo com suas configurações ao criar a tag
 	window.google_custom_params =
